@@ -1,27 +1,26 @@
-.container{
-    margin-top: 135px; /* Adjust this value according to your needs */
-    /* background-color: blue; */
-    /* Add additional styling for your new component here */
+.container {
+  margin-top: 121.5px; /* Adjust this value according to your needs */
+  /* background-color: blue; */
+  /* Add additional styling for your new component here */
 }
 
 .controlBar {
-    position: relative;
-    padding: 20px 25px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: center;
-    margin: 0 auto;
-    /* justify-content: space-between; */
-    background-color: #FAEED1;
-  }
-
-.action{
-    margin: 0 220px;
-    
+  position: relative;
+  padding: 18px 22.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  margin: 0 auto;
+  /* justify-content: space-between; */
+  background-color: #faeed1;
 }
 
-.textboxContainer{
+.action {
+  margin: 0 198px;
+}
+
+.textboxContainer {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
@@ -30,25 +29,25 @@
 }
 
 .textbox {
-  padding: 10px;
-  margin-right: 10px;
-  border: 2px solid dodgerblue;
-  border-radius: 4px;
-  width: 200px;
+  padding: 9px;
+  margin-right: 9px;
+  border: 1.8px solid dodgerblue;
+  border-radius: 3.6px;
+  width: 180px;
   box-sizing: border-box;
   outline: none;
 }
 
 .sortingBars {
-    position: absolute;
-    top: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-    width: 100%; /* Set the height of the container to the full viewport height */
-    flex-wrap: nowrap;
-    margin: 0 auto;
-  }
+  position: absolute;
+  top: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  width: 100%; /* Set the height of the container to the full viewport height */
+  flex-wrap: nowrap;
+  margin: 0 auto;
+}
 
 /* .bars {
     background-color: #ff7f50;
@@ -63,7 +62,7 @@
     border-radius: 4px; 
     font-size: calc(12px + 0.5vw); 
   } */
-  /* .bars {
+/* .bars {
     height: 50px;
     width: 50px;
     background-color: #ff7f50;
@@ -73,19 +72,18 @@
     text-align: center;
   } */
 
-  .bars {
-    background-color: #DED0B6;
-    border: 1px solid #ccc;
-    margin: 5px;
-    padding: 10px;
-    min-width: 50px; 
-    box-sizing: border-box; 
-    overflow: hidden; 
-    white-space: nowrap; 
-    text-overflow: ellipsis; 
-    text-align: center;
-    font-size: calc(12px + 0.5vw);
-    border-radius: 10px; 
-    text-align: center;
-  }
-
+.bars {
+  background-color: #ded0b6;
+  border: 0.9px solid #ccc;
+  margin: 4.5px;
+  padding: 9px;
+  min-width: 45px;
+  box-sizing: border-box;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: center;
+  font-size: calc(10.8px + 0.45vw);
+  border-radius: 9px;
+  text-align: center;
+}
